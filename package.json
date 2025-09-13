@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "dependencies": {},
-  "devDependencies": {}
+   "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
 }
