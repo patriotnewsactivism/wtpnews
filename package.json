@@ -1,19 +1,25 @@
 {
   "name": "wtpnews",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "dev": "vite",                // if Vite
+    "build": "vite build",
+    "preview": "vite preview"
+    /* OR, if Next.js:
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+    */
+  },
+  "dependencies": {
+    // your deps here
+  },
+  "devDependencies": {
+    // your dev deps here
+  },
+  "engines": {
+    "node": ">=20.16.0 <21",
+    "npm": ">=10"
   }
 }
-  "engines": {
-  "node": ">=20.16.0 <21",
-  "npm": ">=10"
-}
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
