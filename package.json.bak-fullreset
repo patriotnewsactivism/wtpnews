@@ -13,6 +13,7 @@
     "react": "latest",
     "react-dom": "latest"
   },
+  ,
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.8.0",
     "critters": "^0.0.22",
