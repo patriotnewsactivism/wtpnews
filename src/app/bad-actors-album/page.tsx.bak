@@ -1,10 +1,10 @@
-﻿export const metadata = {
-  title: &quot;Bad Actors Album - WTP News&quot;,
+export const metadata = {
+  title: "Bad Actors Album - WTP News",
 };
 
 export default function BadActorsPage() {
   return (
-    <main className=&quot;content-section&quot;>
+    <main className="content-section">
       <h1>Bad Actors Album</h1>
       <p>
         Listen to the unapologetic debut album written and produced by Matthew Reardon, 
@@ -13,7 +13,7 @@ export default function BadActorsPage() {
       
       <h2>Album Concept</h2>
       <p>
-        The &quot;Bad Actors&quot; album is more than musicâ€”it&apos;s a form of journalism. 
+        The &quot;Bad Actors&quot; album is more than music—it&apos;s a form of journalism. 
         Each track confronts institutional corruption, police overreach, 
         and the silencing of dissent in America.
       </p>
@@ -36,10 +36,9 @@ export default function BadActorsPage() {
         <li>7. Unapologetic</li>
       </ul>
       
-      <div className=&quot;mt-8 text-center&quot;>
+      <div className="mt-8 text-center">
         <button className=&quot;btn&quot;>Listen Now</button>
       </div>
     </main>
   );
 }
-

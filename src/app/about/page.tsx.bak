@@ -1,10 +1,10 @@
-﻿export const metadata = {
-  title: &quot;About - WTP News&quot;,
+export const metadata = {
+  title: "About - WTP News",
 };
 
 export default function AboutPage() {
   return (
-    <main className=&quot;content-section&quot;>
+    <main className="content-section">
       <h1>About WTP News</h1>
       <p>
         We The People News is an independent journalism platform dedicated to 
@@ -42,4 +42,3 @@ export default function AboutPage() {
     </main>
   );
 }
-

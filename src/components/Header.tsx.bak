@@ -1,4 +1,3 @@
-﻿import Link from 'next/link';
 import Link from 'next/link';
 import Logo from './Logo';
 
@@ -8,7 +7,7 @@ export default function Header() {
       <div className=&quot;nav&quot;>
         <Logo />
         <nav>
-          <ul className=&quot;nav-links&quot;>
+          <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/articles">Articles</Link></li>
             <li><Link href="/documents">Documents</Link></li>
@@ -22,4 +21,3 @@ export default function Header() {
     </header>
   );
 }
-
