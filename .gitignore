@@ -1,6 +1,10 @@
 # Node
 node_modules/
 .npm/
+.next
+out
+dist
+.cache
 
 # Next.js
 .next/
