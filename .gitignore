@@ -5,6 +5,7 @@ node_modules/
 out
 dist
 .cache
+.env
 
 # Next.js
 .next/
