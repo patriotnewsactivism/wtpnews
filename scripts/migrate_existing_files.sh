@@ -3,9 +3,9 @@
 set -euo pipefail
 
 require_cmd() { command -v "$1" >/dev/null 2>&1 || { echo "Missing: $1"; exit 1; }; }
-require_cmd git
-require_cmd git-lfs
+require_cmd git; require_cmd git-lfs
 
+# Safety tag for rollback
 TAG="pre-lfs-migration-$(date +%Y%m%d-%H%M%S)"
 
 echo "Tagging current state as $TAG"
