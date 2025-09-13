@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6
-size 262
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
+/// <reference path="./.next/types/routes.d.ts" />
+
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
