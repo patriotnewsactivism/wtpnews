@@ -1,6 +1,11 @@
 # netlify.toml
 [build]
-  command = "npm ci && npm run build"
+  command = "next build"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]                       # SPA routing → always serve index.html
+  from = "/*"
+  to = "/index.html"
+  status = 200
