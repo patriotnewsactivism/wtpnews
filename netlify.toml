@@ -1,7 +1,6 @@
 [build]
   command = "npm ci && npm run build"
-  publish = "dist"   # or ".next", "build", etc. set this to your actual output
+  publish = ".next"
 
-[build.environment]
-  NODE_VERSION = "20.16.0"
-  NPM_FLAGS = "--no-audit --no-fund"
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
