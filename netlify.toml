@@ -1,7 +1,7 @@
 [build]
   command = "npm ci && npm run build"
-  publish = "dist"   # or ".next", "build", etc. set this to your actual output
+  # Do NOT set `publish` here for Next.js Runtime v5; plugin handles it.
 
-[build.environment]
-  NODE_VERSION = "20.16.0"
-  NPM_FLAGS = "--no-audit --no-fund"
+# Remove the old v4 plugin block from netlify.toml.
+# [[plugins]]
+#   package = "@netlify/plugin-nextjs"
