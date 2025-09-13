@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9d19f01414d42242d68994c05c7bdac01ff854a8d0a131a484ae3a954262aeaa
-size 491
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'www.wtpnews.org', pathname: '/**' },
+      { protocol: 'https', hostname: 'wtpnews.org', pathname: '/**' }
+    ]
+  },
+  async redirects() {
+    return [{ source: '/old', destination: '/new', permanent: true }];
+  },
+  async rewrites() {
+    return [
+      { source: '/api/:path*', destination: 'https://api.wtpnews.org/:path*' }
+    ];
+  }
+};
+
+module.exports = nextConfig;
