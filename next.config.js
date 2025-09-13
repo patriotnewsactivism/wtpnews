@@ -14,6 +14,13 @@ const nextConfig = {
     return [
       { source: '/api/:path*', destination: 'https://api.wtpnews.org/:path*' }
     ];
+  },
+  // Performance optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
+  },
+  experimental: {
+    optimizeCss: true,
   }
 };
 

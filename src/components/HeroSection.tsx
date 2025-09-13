@@ -1,3 +1,11 @@
 export default function HeroSection() {
-  return <div />;
+  return (
+    <section className="hero">
+      <h1>We The People News</h1>
+      <p>
+        Investigations, accountability, and civil-rights reporting.
+        Exposing government corruption, police misconduct, and First Amendment violations.
+      </p>
+    </section>
+  );
 }

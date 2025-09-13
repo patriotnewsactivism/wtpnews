@@ -1,12 +1,44 @@
 export const metadata = {
-  title: "Bad Actors Album",
+  title: "Bad Actors Album - WTP News",
 };
 
 export default function BadActorsPage() {
   return (
-    <main>
+    <main className="content-section">
       <h1>Bad Actors Album</h1>
-      <p>Content coming soon.</p>
+      <p>
+        Listen to the unapologetic debut album written and produced by Matthew Reardon, 
+        exposing lies through hard-hitting tracks.
+      </p>
+      
+      <h2>Album Concept</h2>
+      <p>
+        The "Bad Actors" album is more than music—it's a form of journalism. 
+        Each track confronts institutional corruption, police overreach, 
+        and the silencing of dissent in America.
+      </p>
+      
+      <h2>Artist Background</h2>
+      <p>
+        Matthew Reardon brings his experience as an investigative journalist 
+        and constitutional rights activist to this album, creating music that 
+        challenges listeners to think critically about power and accountability.
+      </p>
+      
+      <h2>Track List</h2>
+      <ul>
+        <li>1. Institutional Rot</li>
+        <li>2. The Audition</li>
+        <li>3. Broken Scales</li>
+        <li>4. Silence the Press</li>
+        <li>5. Justice Delayed</li>
+        <li>6. Cross-State Conspiracy</li>
+        <li>7. Unapologetic</li>
+      </ul>
+      
+      <div className="mt-8 text-center">
+        <button className="btn">Listen Now</button>
+      </div>
     </main>
   );
 }

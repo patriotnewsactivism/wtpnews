@@ -1,3 +1,7 @@
 export default function Logo() {
-  return <span>Logo</span>;
+  return (
+    <div className="logo">
+      WTP News
+    </div>
+  );
 }

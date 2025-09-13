@@ -1,12 +1,14 @@
+import PDFViewer from "../../../components/PDFViewer";
+
 export const metadata = {
-  title: "FOIA Evidence",
+  title: "FOIA Evidence - WTP News",
 };
 
 export default function FoiaDoc() {
   return (
-    <main>
-      <h1>FOIA Evidence</h1>
-      <p>PDF coming soon.</p>
-    </main>
+    <PDFViewer 
+      url="/Factual Background FOIA Evidence of Federal Coordination and Retaliation.pdf" 
+      title="FOIA Evidence" 
+    />
   );
 }

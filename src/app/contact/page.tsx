@@ -1,12 +1,38 @@
 export const metadata = {
-  title: "Contact",
+  title: "Contact - WTP News",
 };
 
 export default function ContactPage() {
   return (
-    <main>
-      <h1>Contact</h1>
-      <p>Get in touch at contact@example.com.</p>
+    <main className="content-section">
+      <h1>Contact Us</h1>
+      <p>
+        We welcome tips, story ideas, and feedback from our readers. 
+        If you have information about government corruption, police misconduct, 
+        or civil rights violations, please reach out to us.
+      </p>
+      
+      <h2>Email</h2>
+      <p>
+        <a href="mailto:contact@wtpnews.org">contact@wtpnews.org</a>
+      </p>
+      
+      <h2>Support Our Work</h2>
+      <p>
+        Support independent journalism: 
+        <a href="https://cash.app/$1Aaudit"> CashApp: $1Aaudit</a>
+      </p>
+      
+      <h2>Follow Us</h2>
+      <p>
+        <a 
+          href="https://www.youtube.com/channel/UCf46xln_ufkayZ9HtFDcA8Q/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          YouTube Channel
+        </a>
+      </p>
     </main>
   );
 }

@@ -1,4 +1,8 @@
 import Link from "next/link";
+import HeroSection from "../components/HeroSection";
+import FeaturedArticles from "../components/FeaturedArticles";
+import ConstitutionalToolPromo from "../components/ConstitutionalToolPromo";
+import BadActorsPromo from "../components/BadActorsPromo";
 
 export const metadata = {
   title: "WTP News",
@@ -15,23 +19,29 @@ const links = [
 
 export default function Home() {
   return (
-    <main className="text-center">
-      <h1 className="text-4xl font-bold mb-4">WTP News</h1>
-      <p className="mb-8 text-lg text-gray-700">
-        Investigations, accountability, and civil-rights reporting.
-      </p>
-      <ul className="flex flex-wrap justify-center gap-4">
-        {links.map(({ href, label }) => (
-          <li key={href}>
-            <Link
-              href={href}
-              className="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800"
-            >
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <main>
+      <HeroSection />
+      <div className="content-section">
+        <FeaturedArticles />
+        <ConstitutionalToolPromo />
+        <BadActorsPromo />
+        
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold mb-4 text-center">Explore Our Content</h2>
+          <ul className="flex flex-wrap justify-center gap-4">
+            {links.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="px-4 py-2 bg-blue-800 text-white rounded hover:bg-blue-500 transition-colors"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </main>
   );
 }

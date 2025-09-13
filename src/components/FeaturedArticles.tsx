@@ -1,3 +1,11 @@
 export default function FeaturedArticles() {
-  return <div />;
+  return (
+    <section className="featured">
+      <h2>Featured Articles</h2>
+      <p>
+        Stay informed with our latest investigations into government corruption, 
+        police misconduct, and civil rights violations across the United States.
+      </p>
+    </section>
+  );
 }

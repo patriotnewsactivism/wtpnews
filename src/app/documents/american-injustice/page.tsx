@@ -1,12 +1,14 @@
+import PDFViewer from "../../../components/PDFViewer";
+
 export const metadata = {
-  title: "American Injustice",
+  title: "American Injustice - WTP News",
 };
 
 export default function AmericanInjusticeDoc() {
   return (
-    <main>
-      <h1>American Injustice</h1>
-      <p>PDF coming soon.</p>
-    </main>
+    <PDFViewer 
+      url="/American Injustice- Matthew Reardon.pdf" 
+      title="American Injustice" 
+    />
   );
 }

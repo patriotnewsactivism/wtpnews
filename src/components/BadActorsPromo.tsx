@@ -1,3 +1,11 @@
 export default function BadActorsPromo() {
-  return <div />;
+  return (
+    <section className="featured">
+      <h2>Bad Actors Album</h2>
+      <p>
+        Listen to the unapologetic debut album written and produced by Matthew Reardon, 
+        exposing lies through hard-hitting tracks.
+      </p>
+    </section>
+  );
 }

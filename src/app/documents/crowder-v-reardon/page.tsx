@@ -1,12 +1,14 @@
+import PDFViewer from "../../../components/PDFViewer";
+
 export const metadata = {
-  title: "Crowder v. Reardon",
+  title: "Crowder v. Reardon - WTP News",
 };
 
 export default function CrowderDoc() {
   return (
-    <main>
-      <h1>Crowder v. Reardon</h1>
-      <p>PDF coming soon.</p>
-    </main>
+    <PDFViewer 
+      url="/An Analytical Summary of Proceedings in Crowder v. Reardon (CV-2016-422W).pdf" 
+      title="Crowder v. Reardon" 
+    />
   );
 }
