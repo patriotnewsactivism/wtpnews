@@ -1,10 +1,10 @@
 ﻿export const metadata = {
-  title: "Constitutional Rights Tool - WTP News",
+  title: &quot;Constitutional Rights Tool - WTP News&quot;,
 };
 
 export default function ConstitutionalRightsToolPage() {
   return (
-    <main className="content-section">
+    <main className=&quot;content-section&quot;>
       <h1>Constitutional Rights Legal Research Tool</h1>
       <p>
         A first-of-its-kind platform designed for journalists, civil rights attorneys, 
@@ -77,12 +77,10 @@ export default function ConstitutionalRightsToolPage() {
         This tool is your map through that legal minefield.
       </p>
       
-      <div className="mt-8 text-center">
-        <button className="btn">Try It Now</button>
+      <div className=&quot;mt-8 text-center&quot;>
+        <button className=&quot;btn&quot;>Try It Now</button>
       </div>
     </main>
   );
 }
-
-
 

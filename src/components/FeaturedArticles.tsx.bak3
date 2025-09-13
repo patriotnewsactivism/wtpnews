@@ -1,6 +1,6 @@
-﻿export default function FeaturedArticles() {
+export default function FeaturedArticles() {
   return (
-    <section className="featured">
+    <section className=&quot;featured&quot;>
       <h2>Featured Articles</h2>
       <p>
         Stay informed with our latest investigations into government corruption, 
@@ -9,4 +9,3 @@
     </section>
   );
 }
-

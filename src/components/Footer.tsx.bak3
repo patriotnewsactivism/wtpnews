@@ -1,7 +1,8 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
+import Link from 'next/link';
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className=&quot;footer&quot;>
       <div className="footer-content">
         <p>© 2025 We The People News</p>
         <p>Investigations, accountability, and civil-rights reporting.</p>
@@ -18,7 +19,7 @@ export default function Footer() {
           <a 
             href="https://www.youtube.com/channel/UCf46xln_ufkayZ9HtFDcA8Q/" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel=&quot;noopener noreferrer&quot;
           >
             YouTube
           </a>
@@ -27,5 +28,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-

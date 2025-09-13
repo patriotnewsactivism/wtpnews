@@ -1,10 +1,10 @@
 ﻿export const metadata = {
-  title: "Bad Actors Album - WTP News",
+  title: &quot;Bad Actors Album - WTP News&quot;,
 };
 
 export default function BadActorsPage() {
   return (
-    <main className="content-section">
+    <main className=&quot;content-section&quot;>
       <h1>Bad Actors Album</h1>
       <p>
         Listen to the unapologetic debut album written and produced by Matthew Reardon, 
@@ -36,12 +36,10 @@ export default function BadActorsPage() {
         <li>7. Unapologetic</li>
       </ul>
       
-      <div className="mt-8 text-center">
-        <button className="btn">Listen Now</button>
+      <div className=&quot;mt-8 text-center&quot;>
+        <button className=&quot;btn&quot;>Listen Now</button>
       </div>
     </main>
   );
 }
-
-
 

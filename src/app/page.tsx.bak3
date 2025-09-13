@@ -1,20 +1,20 @@
-﻿import HeroSection from "../components/HeroSection";
+import Link from "next/link";
+import HeroSection from "../components/HeroSection";
 import FeaturedArticles from "../components/FeaturedArticles";
 import ConstitutionalToolPromo from "../components/ConstitutionalToolPromo";
 import BadActorsPromo from "../components/BadActorsPromo";
-import Link from 'next/link';
 
 export const metadata = {
-  title: "WTP News",
+  title: &quot;WTP News&quot;,
 };
 
 const links = [
-  { href: "/articles", label: "Articles" },
-  { href: "/documents", label: "Documents" },
-  { href: "/bad-actors-album", label: "Bad Actors Album" },
-  { href: "/constitutional-rights-tool", label: "Constitutional Rights Tool" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
+  { href: "/articles", label: &quot;Articles&quot; },
+  { href: "/documents", label: &quot;Documents&quot; },
+  { href: "/bad-actors-album", label: &quot;Bad Actors Album&quot; },
+  { href: "/constitutional-rights-tool", label: &quot;Constitutional Rights Tool&quot; },
+  { href: "/about", label: &quot;About&quot; },
+  { href: "/contact", label: &quot;Contact&quot; },
 ];
 
 export default function Home() {
@@ -45,4 +45,3 @@ export default function Home() {
     </main>
   );
 }
-

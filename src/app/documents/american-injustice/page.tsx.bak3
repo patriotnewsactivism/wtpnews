@@ -1,4 +1,4 @@
-﻿import PDFViewer from "../../../components/PDFViewer";
+import PDFViewer from "../../../components/PDFViewer";
 
 export const metadata = {
   title: "American Injustice - WTP News",
@@ -8,9 +8,7 @@ export default function AmericanInjusticeDoc() {
   return (
     <PDFViewer 
       url="/American Injustice- Matthew Reardon.pdf" 
-      title="American Injustice" 
+      title=&quot;American Injustice&quot; 
     />
   );
 }
-
-

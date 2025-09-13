@@ -1,13 +1,14 @@
-﻿import Logo from './Logo';
+﻿import Link from 'next/link';
 import Link from 'next/link';
+import Logo from './Logo';
 
 export default function Header() {
   return (
-    <header className="header">
-      <div className="nav">
+    <header className=&quot;header&quot;>
+      <div className=&quot;nav&quot;>
         <Logo />
         <nav>
-          <ul className="nav-links">
+          <ul className=&quot;nav-links&quot;>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/articles">Articles</Link></li>
             <li><Link href="/documents">Documents</Link></li>
@@ -21,6 +22,4 @@ export default function Header() {
     </header>
   );
 }
-
-
 

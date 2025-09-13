@@ -1,4 +1,7 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
+import Link from 'next/link';
+import Link from "next/link";
+
 export const metadata = {
   title: "Documents - WTP News",
 };
@@ -6,7 +9,7 @@ export const metadata = {
 const documents = [
   {
     id: 1,
-    title: "American Injustice",
+    title: &quot;American Injustice&quot;,
     slug: "american-injustice",
     description: "A comprehensive analysis of constitutional violations and systemic issues in the American justice system."
   },
@@ -18,7 +21,7 @@ const documents = [
   },
   {
     id: 3,
-    title: "FOIA Evidence",
+    title: &quot;FOIA Evidence&quot;,
     slug: "foia-evidence",
     description: "Factual background and FOIA evidence of federal coordination and retaliation."
   }
@@ -35,10 +38,10 @@ export default function DocumentsPage() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {documents.map((doc) => (
-          <div key={doc.id} className="card">
+          <div key={doc.id} className=&quot;card&quot;>
             <h2>{doc.title}</h2>
             <p className="mb-4">{doc.description}</p>
-            <Link href={`/documents/${doc.slug}`} className="btn">
+            <Link href={`/documents/${doc.slug}`} className=&quot;btn&quot;>
               View Document
             </Link>
           </div>
@@ -47,5 +50,3 @@ export default function DocumentsPage() {
     </main>
   );
 }
-
-

@@ -1,6 +1,6 @@
-﻿export default function BadActorsPromo() {
+export default function BadActorsPromo() {
   return (
-    <section className="featured">
+    <section className=&quot;featured&quot;>
       <h2>Bad Actors Album</h2>
       <p>
         Listen to the unapologetic debut album written and produced by Matthew Reardon, 
@@ -9,4 +9,3 @@
     </section>
   );
 }
-

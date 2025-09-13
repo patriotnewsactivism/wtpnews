@@ -3,18 +3,18 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>© 2025 We The People News</p>
+        <p>Â© 2025 We The People News</p>
         <p>Investigations, accountability, and civil-rights reporting.</p>
         <p>
-          Contact us at{' '}
+          Contact us at{&apos; &apos;}
           <Link href="mailto:contact@wtpnews.org">contact@wtpnews.org</Link>
         </p>
         <p>
-          Support independent journalism:{' '}
+          Support independent journalism:{&apos; &apos;}
           <Link href="https://cash.app/$1Aaudit">CashApp: $1Aaudit</Link>
         </p>
         <p>
-          Follow us:{' '}
+          Follow us:{&apos; &apos;}
           <a 
             href="https://www.youtube.com/channel/UCf46xln_ufkayZ9HtFDcA8Q/" 
             target="_blank" 
@@ -27,5 +27,4 @@ export default function Footer() {
     </footer>
   );
 }
-
 

@@ -71,8 +71,8 @@ const articles = {
   }
 };
 
-export default function ArticlePage({ params }: any) {
-  const key = params.slug as keyof typeof articles; const article = articles[key];
+export default function ArticlePage({ params }: { params: { slug: string } }) {
+  const article = articles[params.slug];
   
   if (!article) {
     return (
@@ -99,8 +99,6 @@ export default function ArticlePage({ params }: any) {
     </main>
   );
 }
-
-
 
 
 

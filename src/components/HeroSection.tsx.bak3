@@ -1,6 +1,6 @@
-﻿export default function HeroSection() {
+export default function HeroSection() {
   return (
-    <section className="hero">
+    <section className=&quot;hero&quot;>
       <h1>We The People News</h1>
       <p>
         Investigations, accountability, and civil-rights reporting.
@@ -9,4 +9,3 @@
     </section>
   );
 }
-

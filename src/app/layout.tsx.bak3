@@ -1,10 +1,10 @@
-﻿import "./globals.css";
-import type { Metadata } from "next";
+import "./globals.css";
+import type { Metadata } from &quot;next&quot;;
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "WTP News",
+  title: &quot;WTP News&quot;,
   description: "Investigations, accountability, and civil-rights reporting.",
 };
 
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang=&quot;en&quot;>
       <body className="min-h-screen bg-gray-50 text-gray-900">
         <Header />
         {children}
@@ -23,4 +23,3 @@ export default function RootLayout({
     </html>
   );
 }
-

@@ -1,4 +1,7 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
+import Link from 'next/link';
+import Link from "next/link";
+
 export const metadata = {
   title: "Articles - WTP News",
 };
@@ -11,31 +14,31 @@ const articles = [
     excerpt: "A routine drive across the causeway into Galveston turned into something far more sinister. Just after 2 a.m., investigative journalist and constitutional rights activist Matthew Reardon was pulled over by Galveston Police Department officers.",
     slug: "galveston-staged-arrest-federal-lawsuit",
     date: "September 12, 2025",
-    author: "Don Matthews",
+    author: &quot;Don Matthews&quot;,
   },
   {
     id: 2,
-    title: "Left Without Counsel, Left Without Argument: How Mississippi's Courts Compounded Injustice",
-    excerpt: "Despite a Supreme Court order, Lafayette County refused to rule on an indigent appellant's request for counsel. Months later, the State failed to file a brief and the Court of Appeals denied oral argument.",
+    title: "Left Without Counsel, Left Without Argument: How Mississippi&apos;s Courts Compounded Injustice",
+    excerpt: "Despite a Supreme Court order, Lafayette County refused to rule on an indigent appellant&apos;s request for counsel. Months later, the State failed to file a brief and the Court of Appeals denied oral argument.",
     slug: "justice-delayed-is-justice-denied",
     date: "September 11, 2025",
-    author: "Don Matthews",
+    author: &quot;Don Matthews&quot;,
   },
   {
     id: 3,
-    title: "Journalist Violently Arrested by Federal Agents for Protected Speech",
+    title: &quot;Journalist Violently Arrested by Federal Agents for Protected Speech&quot;,
     excerpt: "Journalist Matthew Oliver Reardon was violently arrested outside the U.S. District Courthouse in Lafayette, Louisiana, for holding a sign reading 'Fuck the U.S. Marshals Service.'",
     slug: "journalist-violently-arrested-by-federal-agents-for-protected-speech",
     date: "August 27, 2025",
-    author: "Don Matthews",
+    author: &quot;Don Matthews&quot;,
   },
   {
     id: 4,
     title: "U.S. Marshals Service and Department of Justice Exposed: FOIA Reveals #OperationSilenceThePress",
-    excerpt: "A Journalist's FOIA Opens a Federal Window. On June 27, 2025, I filed a Freedom of Information Act request with the U.S. Marshals Service (USMS), seeking records about myself.",
+    excerpt: "A Journalist&apos;s FOIA Opens a Federal Window. On June 27, 2025, I filed a Freedom of Information Act request with the U.S. Marshals Service (USMS), seeking records about myself.",
     slug: "us-marshals-foia-operation-silence-the-press",
     date: "August 23, 2025",
-    author: "Matthew Reardon",
+    author: &quot;Matthew Reardon&quot;,
   },
 ];
 
@@ -50,13 +53,13 @@ export default function ArticlesPage() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {articles.map((article) => (
-          <article key={article.id} className="card">
+          <article key={article.id} className=&quot;card&quot;>
             <h2>{article.title}</h2>
             <p className="text-sm text-gray-500 mb-2">
               By {article.author} / {article.date}
             </p>
             <p className="mb-4">{article.excerpt}</p>
-            <Link href={`/articles/${article.slug}`} className="btn">
+            <Link href={`/articles/${article.slug}`} className=&quot;btn&quot;>
               Read More
             </Link>
           </article>
@@ -65,5 +68,3 @@ export default function ArticlesPage() {
     </main>
   );
 }
-
-

@@ -1,7 +1,8 @@
-export default function Logo() {
+﻿export default function Logo() {
   return (
-    <div className=&quot;logo&quot;>
+    <div className="logo">
       WTP News
     </div>
   );
 }
+

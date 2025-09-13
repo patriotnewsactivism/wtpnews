@@ -1,6 +1,6 @@
-﻿export default function ConstitutionalToolPromo() {
+export default function ConstitutionalToolPromo() {
   return (
-    <section className="featured">
+    <section className=&quot;featured&quot;>
       <h2>Constitutional Rights Legal Research Tool</h2>
       <p>
         A first-of-its-kind platform designed for journalists, civil rights attorneys, 
@@ -9,4 +9,3 @@
     </section>
   );
 }
-

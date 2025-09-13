@@ -9,10 +9,10 @@
         height="800px"
       >
         <p>
-          Unable to display PDF file.{' '}
+          Unable to display PDF file.{&apos; &apos;}
           <a href={url} target="_blank" rel="noopener noreferrer">
             Download it here
-          </a>{' '}
+          </a>{&apos; &apos;}
           instead.
         </p>
       </object>
@@ -29,5 +29,4 @@
     </section>
   );
 }
-
 
