@@ -1,12 +1,20 @@
-﻿export default function ConstitutionalToolPromo() {
+import Link from "next/link";
+import type { Page } from "@/data";
+
+type ConstitutionalToolPromoProps = {
+  page: Page;
+};
+
+export default function ConstitutionalToolPromo({ page }: ConstitutionalToolPromoProps) {
   return (
-    <section className="featured">
-      <h2>Constitutional Rights Legal Research Tool</h2>
-      <p>
-        A first-of-its-kind platform designed for journalists, civil rights attorneys, 
-        auditors, activists, and concerned citizens who refuse to accept a fragmented Constitution.
-      </p>
+    <section className="section section--highlight">
+      <div className="section__header">
+        <h2>{page.title}</h2>
+        <p>{page.excerpt}</p>
+      </div>
+      <Link className="btn btn--light" href={`/${page.slug}`}>
+        Explore the tool
+      </Link>
     </section>
   );
 }
-
