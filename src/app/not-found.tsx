@@ -1,13 +1,15 @@
-﻿import Link from 'next/link';
+import Link from "next/link";
+
 export default function NotFound() {
   return (
-    <main className="content-section text-center">
-      <h1 className="text-2xl font-bold mb-4">Page Not Found</h1>
-      <p className="mb-4">Sorry, the page you requested could not be found.</p>
-      <Link href="/" className="btn">
-        Return Home
-      </Link>
+    <main className="content content--page">
+      <div className="section section--highlight" style={{ textAlign: "center" }}>
+        <h1>Page not found</h1>
+        <p>The page you were looking for doesn&rsquo;t exist in this archive.</p>
+        <Link className="btn" href="/">
+          Return home
+        </Link>
+      </div>
     </main>
   );
 }
-
